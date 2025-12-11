@@ -1,4 +1,6 @@
 
+# Localized Positioning System PoC
+
 This is a proof of concept implementation of a localized, Received Signal Strength Indicator (RSSI) based positioning system using LoRa (Long Range) radio modules . The system functions by defining nodes as either **Beacons** or **Receivers** :
 * **Beacons:** Fixed nodes with known coordinates that periodically broadcast their identity and location .
 * **Receivers:** Mobile nodes that listen for beacon signals, estimate their distance from each beacon using a log-distance path loss model based on signal strength (RSSI) , and calculate their own $(x, y)$ position relative to the network .

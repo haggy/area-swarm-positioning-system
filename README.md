@@ -5,5 +5,6 @@ This is the centralized repository for the ASPS. It contains all content, refere
 ## Table of Contents
 
 * [Localized Positioning System PoC](src/arduino/)
+* [MATLAB Simulations/Scripts](src/matlab/)
 * [Project Slides](slides/)
 * [Project References](references.md)
